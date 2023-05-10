@@ -1,0 +1,61 @@
+/*all*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Common code starts*/
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2656;
+}
+/*Common code ends*/
+
+/*Header starts*/
+header {
+    padding: 12px 0;
+    border-bottom: 2px solid #f2f4f6;
+}
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+.logo {
+    float: left;
+    width: 8%;
+    /* border: 1px solid blue; */
+}
+.logo img {
+    width: 100%;
+}
+.menu {
+    float: right;
+    width: 45%;
+    /* border: 1px solid blue; */
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+.menu ul li a {
+    display: block;
+    padding: 8px 20px;
+    color: #0f2656;
+    text-decoration: none; 
+    transition: .33s ease;
+}
+.menu ul li:last-child a {
+    padding-right: 0;
+}
+.menu ul li a:hover {
+    color: #008aff;
+    font-size: 17px;
+}
+/*Header ends*/
